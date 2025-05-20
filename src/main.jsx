@@ -6,6 +6,7 @@ import Home from "./assets/Component/Home/Home";
 import './index.css';
 import Contact from "./assets/Component/Contact/Contact";
 import Product from "./assets/Component/Product/Product";
+import Offer from "./assets/Component/Offer/Offer";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/Product",
         element: <Product></Product>,
+      },
+      {
+        path: "/Offer",
+        element: <Offer></Offer>,
       },
       {
         path: "/Contact",

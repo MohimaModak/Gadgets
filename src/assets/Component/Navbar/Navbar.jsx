@@ -43,23 +43,23 @@ export default function Navbar() {
         <div className="hidden md:block w-full ">
           <nav className="navbar flex justify-between items-center">
             <div className="flex justify-center items-center">
-              <h1 className="font-bold  text-yellow-200 text-3xl text-center">Gadgets</h1>
+              <h1 className="font-bold  text-yellow-200 text-3xl text-center navShadow">Gadgets</h1>
             </div>
-            <div className="navbar-links lg:flex justify-center items-center gap-5">
-              <Link to="/" smooth={true} duration={1000} className="text-xl text-gray-700 hover:underline">
+            <div className="navbar-links lg:flex justify-center items-center gap-5 navShadow">
+              <Link to="/" smooth={true} duration={1000} className="text-xl text-yellow-200 font-bold hover:underline">
                 Home
               </Link>
-              <Link to="/Product" smooth={true} duration={1000} className="text-xl text-gray-700 hover:underline">
+              <Link to="/Product" smooth={true} duration={1000} className="text-xl text-yellow-200 font-bold hover:underline">
               Products
               </Link>
-              <Link to="/Contact" smooth={true} duration={1000} className="text-xl text-gray-700 hover:underline">
+              <Link to="/Contact" smooth={true} duration={1000} className="text-xl text-yellow-200 font-bold hover:underline">
                 Contact
               </Link>
 
             </div>
             <Link to='/Contact' smooth={true} duration={1000}>
             <div className="flex justify-center items-center">
-            <button className='bg-yellow-200 text-gray-800 uppercase px-4 py-2.5 font-medium rounded-md'>Order Now</button>            </div>
+            <button className='bg-yellow-200 text-gray-800 uppercase px-4 py-2.5 font-bold rounded-md'>Order Now</button>            </div>
             </Link>
           </nav>
         </div>

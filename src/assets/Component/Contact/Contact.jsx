@@ -19,7 +19,8 @@ export default function Contact() {
 }, []);
 
   return (
-    <div data-aos="fade-up" id='/Contact' className='py-14 px-6 lg:px-20 relative bg-orange-50'>
+    <div className='relative bg-orange-100'>
+    <div data-aos="fade-up" id='/Contact' className='py-14 px-6 lg:px-20 relative bg-orange-100'>
     <div data-aos="fade-up" className='max-w-6xl mx-auto lg:flex items-center gap-10'>
       {/* Left Section - Image */}
       <div className='flex justify-center items-center pb-10 lg:pb-0'>
@@ -52,6 +53,7 @@ export default function Contact() {
         <div className=' text-lg font-medium bg-sky-600 text-white w-max p-4 rounded-md shadow-sm'>
           ✅ Pay in Cash on Delivery
         </div>
+      </div>
       </div>
     </div>
   </div>
