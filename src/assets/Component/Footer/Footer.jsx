@@ -11,10 +11,10 @@ export default function Footer() {
 
         {/* Brand Info */}
         <div>
-          <h2 className="text-2xl font-playfair mb-4 text-white">Next-Gen Gadgets
+          <h2 className="text-2xl font-playfair mb-4 text-white">iPhone store
           </h2>
           <p className="text-sm text-teal-100">
-            Level up your tech game with stunning, high-performance electronics</p>
+           Discover the Perfect iPhone for You – Where Cutting-Edge Technology Meets Effortless Style.</p>
         </div>
 
         {/* Navigation */}
@@ -24,8 +24,8 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">Connect With Us</h3>
           <div className=' text-gray-700 text-base font-medium flex items-center gap-5 mb-4'>
-            <a href="https://www.facebook.com/profile.php?id=100085483321222" target='_blank'><button><img src={facebook} className='w-7' /></button></a>
-            <a target='_blank' href="https://wa.me/16892857706">
+              <a href="https://www.facebook.com/profile.php?id=61577766008061" target='_blank'><button><img src={facebook} className='w-7' /></button></a>
+            <a target='_blank' href="https://wa.me/27733118767">
               <button className="bg flex justify-center items-center text-white font-medium px-6 py-4 text-2xl rounded transition">
                 <div><img src={whatsapp} className='w-7' /></div>
               </button>
@@ -36,8 +36,8 @@ export default function Footer() {
       </div>
 
       {/* Bottom Line */}
-      <div className="border-t border-teal-500 text-center py-4 text-sm text-teal-100">
-        &copy; {new Date().getFullYear()} Relaxo Chair. All rights reserved.
+      <div className="border-t border-teal-500 text-center py-4 text-sm text-white">
+        &copy; {new Date().getFullYear()} iPhoneHub. All rights reserved.
       </div>
     </footer>
   )

@@ -33,8 +33,8 @@ export default function Contact() {
 
             {/* Contact Info */}
             <div className=' text-gray-700 text-base font-medium flex items-center gap-5 mb-4'>
-              <a href="https://www.facebook.com/profile.php?id=100085483321222" target='_blank'><button><img src={facebook} className='w-7' /></button></a>
-              <a target='_blank' href="https://wa.me/16892857706">
+              <a href="https://www.facebook.com/profile.php?id=61577766008061" target='_blank'><button><img src={facebook} className='w-7' /></button></a>
+              <a target='_blank' href="https://wa.me/27733118767">
                 <button className="bg flex justify-center items-center text-white font-medium px-6 py-4 text-2xl rounded transition">
                   <div><img src={whatsapp} className='w-7' /></div>
                 </button>
@@ -45,16 +45,15 @@ export default function Contact() {
             <div className=''>
               <h3 className='text-xl font-bold text-sky-600 mb-4'>Our Location</h3>
               <iframe
-                title="Dhaka Dhanmondi Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.946536958868!2d90.3671071149814!3d23.78935018456907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c74c91f77bbd%3A0xcea263fb51d67b82!2sDhanmondi%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1611909753394!5m2!1sen!2sbd"
-                // width="100%"
-                // height="100"
+                title="Pretoria Map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.1631906392495!2d28.21837007556638!3d-25.74786797736445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e955e9dc8671777%3A0xb8478e05ec162406!2sPretoria%2C%20South%20Africa!5e0!3m2!1sen!2sbd!4v1719828773612!5m2!1sen!2sbd"
                 allowFullScreen=""
                 loading="lazy"
-                className='rounded-xl shadow-xl mb-4 border w-[100%] h-[500%] lg:h-[100%] '
+                className='rounded-xl shadow-xl mb-4 border w-[100%] h-[500%] lg:h-[100%]'
               ></iframe>
             </div>
-            <div className=' text-lg font-medium bg-sky-600 text-white w-max p-4 rounded-md shadow-sm'>
+
+            <div className=' text-lg font-medium cursor-pointer bg-sky-600 text-white w-max p-4 rounded-md shadow-sm'>
               ✅ Pay in Cash on Delivery
             </div>
           </div>

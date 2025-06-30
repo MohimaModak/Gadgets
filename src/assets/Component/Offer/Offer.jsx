@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos';
-import OfferProduct1 from "../../../../src/Gallery/Offer1.png"
-import OfferProduct2 from "../../../../src/Gallery/Offer2.png"
-import OfferProduct3 from "../../../../src/Gallery/Offer3.png"
-import OfferProduct4 from "../../../../src/Gallery/Offer4.png"
+import OfferProduct1 from "../../../../src/Gallery/iphone7one.jpg"
+import OfferProduct2 from "../../../../src/Gallery/iphone7two.jpg"
+import OfferProduct3 from "../../../../src/Gallery/iphone7three.jpg"
 import 'aos/dist/aos.css';
 import { Link } from 'react-scroll';
 
@@ -20,17 +19,17 @@ export default function Offer() {
     }, []);
 
     const offers = [
-        { image: OfferProduct1, Name: 'Drone', Price: '$2500' },
-        { image: OfferProduct2, Name: 'Smart Watch', Price: '$800' },
-        { image: OfferProduct3, Name: 'Airpod', Price: '$350' },
-        { image: OfferProduct4, Name: 'Head-phone', Price: '$2050' }
+        { image: OfferProduct1, Name: 'Iphone 7', Price: '$2500' },
+        { image: OfferProduct2, Name: 'Iphone 7', Price: '$800' },
+        { image: OfferProduct3, Name: 'Iphone 7', Price: '$350' },
     ]
 
   return (
     <div className='relative bg-orange-100'>
     <div data-aos="fade-up" id='/Offer' className='py-14 px-6 lg:px-20 relative bg-orange-100'>
-            <h1 className='text-sky-600 text-4xl lg:text-5xl text-center font-bold'>Special Electronics Offer!</h1>
-            <div className='pt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:gap-6'>
+            <h1 className='text-sky-600 text-4xl lg:text-5xl text-center font-bold'>iPhone 7. Timeless Tech</h1>
+            <div className='flex justify-center items-center'>
+            <div className='pt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 lg:gap-6'>
                 {offers.map((item, index) => (
                     <div key={index} className='relative'>
                         <img src={item.image} className='w-96 h-96 text-gray-700 object-cover pt-8 lg:pt-0 rounded lg:rounded-3xl hover:scale-90 duration-1000' />
@@ -44,6 +43,7 @@ export default function Offer() {
                         </Link>
                     </div>
                 ))}
+            </div>
             </div>
             </div>
         </div>

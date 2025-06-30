@@ -5,7 +5,7 @@ import Product from '../Product/Product'
 import Contact from '../Contact/Contact'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Offer from '../Offer/Offer';
+// import Offer from '../Offer/Offer';
 import { Link } from 'react-scroll';
 
 
@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <div data-aos="fade-up" className='absolute inset-0 flex justify-center items-center text-yellow-200 mx-5'>
           <div className='bg-white/15 backdrop-blur-3xl p-4 lg:p-8 rounded-3xl border text-center shadow-md hover:scale-110 duration-1000'>
-            <h1 className='text-4xl md:text-7xl font-bold textshadow'>Next-Gen Gadgets</h1>
+            <h1 className='text-4xl md:text-7xl font-bold textshadow'>iPhone store</h1>
             <p className='text-xl md:text-2xl my-4 text-gray-900'>Discover beauty essentials crafted to highlight the real you.</p>
             <Link to='/Contact' smooth={true} duration={1000}>
               <div className='flex justify-center items-center'>
@@ -42,7 +42,7 @@ export default function Home() {
         </div>
       </div>
       <Product></Product>
-      <Offer></Offer>
+      {/* <Offer></Offer> */}
       <Contact></Contact>
     </div>
   )
