@@ -7,6 +7,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 // import Offer from '../Offer/Offer';
 import { Link } from 'react-scroll';
+import Offer from '../Offer/Offer';
 
 
 export default function Home() {
@@ -42,7 +43,7 @@ export default function Home() {
         </div>
       </div>
       <Product></Product>
-      {/* <Offer></Offer> */}
+      <Offer></Offer>
       <Contact></Contact>
     </div>
   )
